@@ -14,16 +14,16 @@ public class Main {
         if (degrees < 5) {
             System.out.println("На улице "+degrees+" градусов, нужно надеть шапку.");
         }
-        if (degrees > 5) {
+        else {
             System.out.println("На улице "+degrees+" градусов, можно идти без шапки.");
         }
         //Задание 3
-        int speed=61;
+        int speed=60;
         if (speed > 60) {
             System.out.println("Если скорость "+speed+", то придется заплатить штраф.");
         }
-        if (speed < 60) {
-            System.out.println("На улице "+speed+", то можно ездить спокойно.");
+        else {
+            System.out.println("Если скорость "+speed+", то можно ездить спокойно.");
         }
         //Задание 4
         int ageMan = 25;
@@ -40,11 +40,11 @@ public class Main {
             System.out.println("Если возраст человека равен " +ageMan+", то ему нужно ходить на работу.");
         }
         //Задание 5
-        int ageChild = 15;
+        int ageChild = 5;
         if (ageChild < 5 ) {
             System.out.println("Если возраст ребенка равен " +ageChild+", то ему нельзя кататься на аттракционе.");
         }
-        if (ageChild > 5 && ageChild < 14 ) {
+        if (ageChild >= 5 && ageChild < 14 ) {
             System.out.println("Если возраст ребенка равен " +ageChild+", то ему можно кататься на аттракционе в сопровождении взрослого.");
         }
         if (ageChild > 14 ) {
